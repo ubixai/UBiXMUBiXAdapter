@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UBiXMUBiXAdapter'
-  s.version          = '2.8.1.0'
+  s.version          = '2.9.0.0'
   s.summary          = 'UBiX聚合广告变现SDK UBiX Adapter'
   s.homepage         = 'https://www.ubixai.com/product/md'
   # s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
     'OTHER_LINK_FLAG' => '$(inherited) -ObjC' }
  
   
- s.dependency 'UBiXMerakSDK', '2.8.1'
+ s.dependency 'UBiXMerakSDK', '2.9.0'
  s.dependency 'UBiXMediationSDK'
  s.swift_version = '5.0'
 
