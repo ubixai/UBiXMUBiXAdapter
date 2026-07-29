@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UBiXMUBiXAdapter'
-  s.version          = '2.10.2.11.0'
+  s.version          = '2.11.0.0'
   s.summary          = 'UBiX聚合广告变现SDK UBiX Adapter'
   s.homepage         = 'https://www.ubixai.com/product/md'
   # s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -12,12 +12,12 @@ Pod::Spec.new do |s|
 
   s.static_framework = true
 
-  s.vendored_frameworks = ['UBiXMUBiXAdapter/UBiXMUBiXAdapter.framework']
+  s.vendored_frameworks = ['UBiXMUBiXAdapter/UBiXMUBiXAdapter.xcframework']
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
     'OTHER_LINK_FLAG' => '$(inherited) -ObjC' }
  
   
- s.dependency 'UBiXMerakSDK', '2.10.2.11'
+ s.dependency 'UBiXMerakSDK', '2.11.0'
  s.dependency 'UBiXMediationSDK'
  s.swift_version = '5.0'
 
